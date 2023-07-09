@@ -1,0 +1,106 @@
+.navbar{
+    text-decoration: none;
+    width: 100%;
+    background-color: #232946;
+    margin: 0;
+    height: 90px;
+    display: grid;
+    align-items: center;
+    /* box-shadow: 2px 2px 50px white; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media (max-width: 600px) {
+    .navbar { 
+    grid-template-columns: repeat(2 ,1fr); 
+    height: 200px;
+    justify-content: left;
+}
+  }
+.navbar h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    display: grid;
+    justify-content: center;
+    color: #eebbc3;
+    font-weight: 600;
+    cursor: default;
+    transition: 0.5s;
+}
+.navbar h1:hover{
+    text-shadow: 2px 2px 10px white;   
+}
+.navbar input:hover{
+    text-shadow: 2px 2px 10px #eebbc3;   
+}
+.navbar li:hover{
+    text-shadow: 2px 2px 10px #eebbc3;   
+}
+label{
+    font-size: 34px;
+}
+input{
+    width: 400px;
+    height: 34px;
+    border: 0px ;
+    border-radius: 17px;
+    padding-left: 25px;
+    transition: 0.5s;
+}
+ul{
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    /* padding: 5px; */
+    color: aliceblue;
+}
+li{
+    font-size: 25px;
+    transition: 0.5s;
+    /* padding: 40px; */
+}
+#pading{
+    padding: 20px 40px;
+}
+h2{
+    color: #eebbc3;
+    /* border: 2px solid white; */
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+.cartLink2{
+    text-decoration: none;
+    color: #232946;
+    padding: 10px;
+}
+.cartLink1{
+    text-decoration: none;
+    color: aliceblue;
+}
+.cartLink{
+    color: #eebbc3;
+}
+.cart{
+    /* position: absolute;
+    right: 50px;
+    top: 15px;
+    background-color: #232946; */
+    /* padding: 20px; */
+    font-size: 50px;
+}
+#cart-items-number{
+    position: absolute;
+    font-size: 20px;
+}
+.categoryDropDown{
+    visibility: hidden;
+    position: absolute;
+    display: grid;
+    padding: 10px;
+    border: 3px solid #eebbc3;
+    background-color: #eebbc3;
+    border-radius: 15px;
+    color: #232946;
+}
+.category:hover .categoryDropDown{
+    visibility: visible;
+}

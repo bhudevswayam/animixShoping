@@ -1,0 +1,104 @@
+.cartTitle{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.cartItemCount{
+    margin-left: 15%;
+    width: auto;
+    height: auto;
+    color: black;
+}
+.cartItemsContainer{
+    margin-top: 30px;
+    display: flex   ;
+    justify-content: center;
+}
+#olTitle{
+    list-style-type: none;
+    
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-around;
+}
+#liTitle{
+    border: 2px solid #eebbc3;
+}
+.cartUl{
+    border-radius: 20px;
+    background-color: #232946;
+    border: 5px solid #eebbc3;
+    align-items: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 95%;
+}
+.itrmPrice{
+    text-align: center;
+}
+.cartLi{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+}
+#removeItem,#addItem,#deleteItem{
+    margin: 5px 10px;
+    width: 180px;
+    height: 40px;
+    font-size: 23px;
+    font-weight: 500;
+    border: 2px solid #232946;
+    background-color: #eebbc2;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#deleteItem:hover{
+    border: 2px solid #eebbc3;
+    background-color: #232946;
+}
+#removeItem:hover{
+    border: 2px solid #eebbc3;
+    background-color: #232946;
+}
+#addItem:hover{
+    border: 2px solid #eebbc3;
+    background-color: #232946;
+}
+li.cartLi{
+    border-bottom: 2px solid #eebbc3;
+}
+.totalConntainer{
+    padding-left: 20px;
+    display: grid;
+    text-align: left;
+    margin: 30px 40px;
+    align-items: center;
+    justify-content: left;
+}
+#checkoutbtn:hover{
+    border: 2px solid #eebbc3;
+    background-color: #232946;
+}
+#checkoutbtn{
+    margin: 5px 10px;
+    width: 180px;
+    height: 40px;
+    font-size: 23px;
+    font-weight: 500;
+    border: 2px solid #232946;
+    background-color: #eebbc2;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#processing{
+    font-size: 50px;
+}
+@media (MAX-width: 768px) {
+    #removeItem,#addItem,#deleteItem{
+        width: 100PX;
+    }
+    }

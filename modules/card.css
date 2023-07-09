@@ -1,0 +1,81 @@
+/* .card-container{
+    width: max-content;
+} */
+.card{
+    /* padding: 0px; */
+    width: max-content;
+    margin: 25px;
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #eebbc2;
+    box-shadow: 15px 15px 5px #232946;
+    transition: 1s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.card:hover{
+    /* animation: shadow 2s infinite linear; */
+    box-shadow: 15px 15px 30px #232946;
+}
+/* 
+    @keyframes shadow {
+        0% {
+            box-shadow: 15px 15px 10px #232946;
+        }
+        25% {
+            box-shadow: 15px -15px 10px #232946;
+        }
+        50% {
+            box-shadow: -15px -15px 10px #232946;
+        }
+        75% {
+            box-shadow: -15px 15px 10px #232946;
+        }
+        100%{
+            box-shadow: 15px 15px 10px #232946;   
+        }
+    } */
+
+img{
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    /* border-top-left-radius: 25px; */
+    /* border-top-right-radius: 25px; */
+
+
+}
+.card-info{
+    /* height: 100px; */
+    padding: 20px;
+    color: #232946;
+
+    /* background-color: aliceblue; */
+}
+.card-category{
+    font-size: 32px;
+    font-weight: 500;
+}
+h3{
+    font-weight: 800;
+    font-size: 25px;
+}
+#addcart{
+    margin: 5px 10px;
+    width: 320px;
+    height: 40px;
+    font-size: 23px;
+    font-weight: 500;
+    border: 2px solid #232946;
+    background-color: #eebbc2;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#addcart:hover{
+    background-color: #232946;
+    color: #eebbc2;
+}
+button:hover{
+    background-color: #232946;
+    color: #eebbc2;
+}
+
